@@ -14,8 +14,7 @@ def insertion_sort(array):
             i = i - 1
         array[i + 1] = key
         
-        
-a = [10, 3, 15, 8, 28, 13]
-insertion_sort(a)
-
-print(a);
+if __name__ == '__main__':
+    a = [10, 3, 15, 8, 28, 13]
+    insertion_sort(a)
+    print(a)

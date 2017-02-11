@@ -48,9 +48,8 @@ def heapSort(array):
         array[0] = array[i]
         array[i] = tmp
         maxHeapify(array, i, 0)
-
-
-array = [1, 0, 3, 6, 2, 5, 7, 10, 32, 23, 42, 53, 65, 12, 18, 9, 22, 4]
-
-heapSort(array)
-print(array)        
+       
+if __name__ == '__main__':
+    array = [1, 0, 3, 6, 2, 5, 7, 10, 32, 23, 42, 53, 65, 12, 18, 9, 22, 4]
+    heapSort(array)
+    print(array) 

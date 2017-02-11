@@ -43,9 +43,7 @@ def findMaximumSubArray(array, lowIdx, highIdx):
         else :
             return crossLowIdx, crossHighIdx, crossSum
         
-
-array = [1, -3, 2, -4, 5, 8, -10, 9,-7, 6]
-
-maxLowIdx, maxHighIdx, maxSum = findMaximumSubArray(array, 0, len(array) - 1)
-
-print("maxLowIdx = " + str(maxLowIdx) + ", maxHighIdx = " + str(maxHighIdx) + ", maxSum = " + str(maxSum))
+if __name__ == '__main__':
+    array = [1, -3, 2, -4, 5, 8, -10, 9,-7, 6]
+    maxLowIdx, maxHighIdx, maxSum = findMaximumSubArray(array, 0, len(array) - 1)
+    print("maxLowIdx = " + str(maxLowIdx) + ", maxHighIdx = " + str(maxHighIdx) + ", maxSum = " + str(maxSum))

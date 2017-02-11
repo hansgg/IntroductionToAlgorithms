@@ -15,8 +15,8 @@ def bubble_sort(array):
                 array[j - 1] = tmp
             
             j = j - 1
-                
-array = [3, 2, 8, 5, 10, 1]
-bubble_sort(array)
 
-print(array)
+if __name__ == '__main__':
+    array = [3, 2, 8, 5, 10, 1]
+    bubble_sort(array)
+    print(array)

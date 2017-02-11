@@ -37,7 +37,7 @@ def merge_sort(array, leftidx, rightidx):
         merge_sort(array, halfidx + 1, rightidx)
         merge(array, leftidx, halfidx, rightidx)
         
-
-array = [8, 3, 14, 10, 28, 15]
-merge_sort(array, 0, len(array))
-print(array)
+if __name__ == '__main__':
+    array = [8, 3, 14, 10, 28, 15]
+    merge_sort(array, 0, len(array))
+    print(array)
