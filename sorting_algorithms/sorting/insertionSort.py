@@ -1,9 +1,3 @@
-'''
-Created on 2017. 1. 29.
-
-@author: hansgg
-@summary: 삽입 정렬 알고리즘 
-'''
 def insertion_sort(array):
     key = -1
     for j in range(1, len(array)):
